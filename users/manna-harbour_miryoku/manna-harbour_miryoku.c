@@ -7,6 +7,31 @@
 
 #include "manna-harbour_miryoku.h"
 
+// ASD features
+enum custom_keycodes {
+    STR_VPN,
+    STR_NIB,
+    // SELWRD,
+};
+
+bool process_record_user(uint16_t keycode, keyrecord_t* record) {
+    // if (!process_select_word(keycode, record, SELWRD)) { return false; }
+  switch (keycode) {
+
+    case STR_VPN:
+      if (record->event.pressed) {
+        SEND_STRING("9l0i9jod");
+      }
+      return false;
+
+    case STR_NIB:
+      if (record->event.pressed) {
+        SEND_STRING("1%9$m2My");
+      }
+      return false;
+  }
+  return true;
+}
 
 // Additional Features double tap guard
 
