@@ -10,7 +10,7 @@
 // ASD features
 enum custom_keycodes {
     STR_VPN,
-    STR_NIB,
+    STR_VSC,
     // SELWRD,
 };
 
