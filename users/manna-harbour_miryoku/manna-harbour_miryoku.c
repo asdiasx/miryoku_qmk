@@ -26,7 +26,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
 
     case STR_NIB:
       if (record->event.pressed) {
-        SEND_STRING("1%9$m2My");
+        SEND_STRING("1\%9\$m2My");
       }
       return false;
   }
