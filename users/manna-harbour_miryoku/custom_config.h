@@ -6,10 +6,10 @@
 #pragma once
 
 #define MIRYOKU_LAYER_NAV \
-TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   STRVPN,            U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           KC_Y,              CW_TOGG,           KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,           \
-U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    STRVSC,            KC_INS,            KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,            \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   KC_X,            U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           KC_Y,            CW_TOGG,           KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,           \
+U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    KC_Z,            KC_INS,            KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,            \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,            KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP
 
 #if defined (KEYBOARD_crkbd)
   #define XXX KC_NO

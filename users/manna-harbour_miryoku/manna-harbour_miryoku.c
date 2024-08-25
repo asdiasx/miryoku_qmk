@@ -8,11 +8,13 @@
 #include "manna-harbour_miryoku.h"
 
 // ASD features
+/*
 enum custom_keycodes {
     STRVSC,
     STRVPN,
     // SELWRD,
 };
+
 
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
     // if (!process_select_word(keycode, record, SELWRD)) { return false; }
@@ -32,7 +34,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
   }
   return true;
 }
-
+*/
 // Additional Features double tap guard
 
 enum {
