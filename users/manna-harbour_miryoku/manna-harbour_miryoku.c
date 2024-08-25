@@ -18,7 +18,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
     // if (!process_select_word(keycode, record, SELWRD)) { return false; }
   switch (keycode) {
 
-    case STR_NIB:
+    case STR_VSC:
       if (record->event.pressed) {
         SEND_STRING("1%9$m2My");
       }
