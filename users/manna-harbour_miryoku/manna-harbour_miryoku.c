@@ -9,8 +9,8 @@
 
 // ASD features
 enum custom_keycodes {
-    STR_VPN,
-    STR_VSC,
+    STRVSC,
+    STRVPN,
     // SELWRD,
 };
 
@@ -18,15 +18,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
     // if (!process_select_word(keycode, record, SELWRD)) { return false; }
   switch (keycode) {
 
-    case STR_VPN:
+    case STRVPN:
       if (record->event.pressed) {
         SEND_STRING("1%9$m2My");
       }
       return false;
 
-    case STR_VSC:
+    case STRVSC:
       if (record->event.pressed) {
-        SEND_STRING("9l0i9jod");
+        SEND_STRING("1%9$m2My2");
       }
       return false;
   }
