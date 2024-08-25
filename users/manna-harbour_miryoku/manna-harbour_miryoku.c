@@ -8,9 +8,8 @@
 #include "manna-harbour_miryoku.h"
 
 // ASD features
-/*
 enum custom_keycodes {
-    STRVSC,
+    STRNIB = SAFE_RANGE,
     STRVPN,
     // SELWRD,
 };
@@ -22,13 +21,13 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
 
     case STRVPN:
       if (record->event.pressed) {
-        SEND_STRING("1%9$m2My");
+        SEND_STRING("9l0i9jod");
       }
       return false;
 
-    case STRVSC:
+    case STRNIB:
       if (record->event.pressed) {
-        SEND_STRING("1%9$m2My2");
+        SEND_STRING("1%9$m2My");
       }
       return false;
   }
