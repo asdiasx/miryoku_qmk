@@ -37,9 +37,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case LSFT_T(KC_F):
-            return 150;  // 150 milissegundos para o Mod-Tap LSFT_T(KC_F)
+            return 125;  // 150 milissegundos para o Mod-Tap LSFT_T(KC_F)
         case LSFT_T(KC_J):
-            return 150;  // 150 milissegundos para o Mod-Tap LSFT_T(KC_J)
+            return 125;  // 150 milissegundos para o Mod-Tap LSFT_T(KC_J)
         case LGUI_T(KC_A):
             return 250;  // 250 milissegundos para o Mod-Tap LGUI_T(KC_A)
         case LGUI_T(KC_QUOT):
